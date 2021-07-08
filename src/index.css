@@ -1,13 +1,73 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+td,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: teal;
+  color: white;
+  position: relative;
+}
+th .sort-by {
+  padding-right: 18px;
+  position: relative;
+}
+.sort-by:before,
+.sort-by:after {
+  border: 6px solid transparent;
+  content: "";
+  display: block;
+  height: 0;
+  right: 15px;
+  top: 45%;
+  position: absolute;
+  width: 0;
+}
+.sort-by:before {
+  border-bottom-color: #ffffff;
+  margin-top: -9px;
+}
+.sort-by:after {
+  border-top-color: #ffffff;
+  margin-top: 5px;
+}
+.macro{
+  background-color:white;
+}
+.credit {
+  background-color:green;
+  color:white;
+}
+.equities{
+  background-color : blue;
+  color:white;
+}
+.negativePrice{
+  background-color : red;
+  color:white;
+}
+
+.tableWrapper {
+  margin:24px;
 }
