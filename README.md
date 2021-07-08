@@ -4,6 +4,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Getting Started
 
-git clone https://github.com/SteffyJohn11/React-table.git
-npm install
-npm start
+git clone https://github.com/SteffyJohn11/React-table.git \
+npm install \
+npm start \
