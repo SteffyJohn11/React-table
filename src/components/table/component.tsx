@@ -17,8 +17,7 @@ function TableComponent() {
       const sortItems = sortFilter(sortableItems, name, direction)
       setData(sortItems)
     }
-    return sortableItems;
-  }, [data, config]);
+  }, [config]);
 
   const onSort = (name: any) => {
     let direction = 'ascending';
